@@ -1,21 +1,4 @@
 <template>
-  <header>
-    <nav>
-      <NuxtLink to="/">Project Name</NuxtLink>
-      <ul>
-        <li>
-          <NuxtLink to="/">Home</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/about">About</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/products">Products</NuxtLink>
-        </li>
-      </ul>
-      <a href="/about">normal link</a>
-    </nav>
-  </header>
   <div>
     <h2>About</h2>
     <p>
