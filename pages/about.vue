@@ -7,10 +7,13 @@
       cupiditate ipsam temporibus veniam voluptatem provident perspiciatis!
       Explicabo voluptatem ab ratione.
     </p>
+    <div>{{ data }}</div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const { data } = await useFetch("/api/currency/EUR");
+</script>
 
 <style scoped>
 h2 {
